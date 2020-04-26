@@ -1,0 +1,5 @@
+google-assistant-sdk[samples]
+google-assistant-grpc
+google-auth-oauthlib
+click
+
