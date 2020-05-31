@@ -1,4 +1,11 @@
 Smart Home Config
+=================
+
+Home Assistant
+  + Setup hassio: https://www.home-assistant.io/hassio/installation/
+  + Install hassio addons: Configurator, SSH, Node-RED
+  + Configure HomeMatic: ???
+  + Configure Node-RED: ???
 
 Google Assistant
   + First, download client credentials and activate: 
