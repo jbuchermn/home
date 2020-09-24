@@ -1,4 +1,16 @@
 Smart Home Config
+=================
+
+Home Assistant
+  + Setup hassio: https://www.home-assistant.io/hassio/installation/
+  + Install hassio addons: Configurator, SSH, Node-RED
+  + Configure HomeMatic in configuration.yaml (see example in repo)
+    + Adjust names in entity config (according to HomeMatic WebUI)
+  + Configure Node-RED
+    + Set random credential_secret, set ssl = false
+    + Install (Manage palette) node-red-contrib-homekit-bridged
+    + Set contextStorage to localfilesystem in settings.js
+    + Homeassistant-Service-Nodes + Homekit-Nodes + ...
 
 Google Assistant
   + First, download client credentials and activate: 
